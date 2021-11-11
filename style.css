@@ -8,7 +8,7 @@
 }
 
 body {
-  background: lightblue;
+  background: #efefef;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,14 +283,13 @@ body {
 
 @media screen and (max-width: 768px) {
 
-  .contact_info ul{
-    margin: 0 -20px;
-  }
-
   .contact_info .title {
     text-align: center;
   }
 
+  .contact_info ul li .icon {
+    margin-right: 10px;
+  }
 
   .about .box {
     flex-direction: column;
@@ -307,6 +306,12 @@ body {
 
   .skills .box {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact_info ul{
+    margin: 0 -20px;
   }
 }
 
