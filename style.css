@@ -282,9 +282,15 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+  .contact_info ul{
+    margin: 0 -20px;
+  }
+
   .contact_info .title {
     text-align: center;
   }
+
 
   .about .box {
     flex-direction: column;
